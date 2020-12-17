@@ -1,0 +1,144 @@
+
+
+.product-title{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.line{
+    font-size: 40px;
+    color: #333333;
+}
+.line::before{
+    content: "";
+    display: block;
+    width: 110px;
+    height: 4px;
+    background-color: #DC0000;
+    margin: 20px 0 0 135px;
+}
+.line::after{
+    content: "";
+    display: block;
+    width: 110px;
+    height: 4px;
+    background-color: #DC0000;
+    margin: 20px 0 0 135px;
+}
+.product-image img{
+    width: 570px;
+    height: 570px;
+}
+.product-content{
+    width: 1200px;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.product-content-text{
+    width: 550px;
+    color: #777777;
+    display: block;
+    align-self: center;
+}
+.mini-line::after{
+    content: "";
+    display: block;
+    width: 31px;
+    height: 2px;
+    background-color: #777777;
+    margin: 20px 0;
+}
+.product-name{
+    text-transform: uppercase;
+    font-size: 30px;
+    color: #DC0000;
+}
+.size-buttons{
+    display: flex;
+    width: 370px;
+    justify-content: space-between;
+}
+.size-buttons button{
+    width: 71px;
+    height: 52px;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    background-color: transparent;
+    color: #333333;
+}
+.shop-buttons{
+    margin-top: 30px;
+    display: flex;
+    width: 370px;
+    justify-content: space-between;
+}
+.shop-buttons button{
+    width: 171px;
+    height: 52px;
+    border: 1px solid black;
+    background-color: transparent;
+    color: #333333;
+}
+.size-buttons button:hover, .shop-buttons button:hover{
+    color: white;
+    background-color: #333333;
+}
+.slider-buttons{
+    width: 80px;
+    display: flex;
+    margin: auto;
+}
+.slider-buttons button{
+    width: 13px;
+    height: 16px;
+    background-color: #333333;
+    border-radius: 20px;
+    margin: 20px 5px;
+}
+.slider-buttons button:hover{
+    background-color: transparent;
+    border: 2px solid #DC0000;
+}
+
+@media screen and (max-width: 992px){
+    .product-content{
+        width: 992px;
+        justify-content: space-around;
+    }
+    .product-image img{
+        width: 450px;
+        height: 450px;
+    }
+    .product-content-text{
+        width: 350px;
+    }
+    .product-main{
+        width: 100%;
+        height: 900px;
+    }
+    .product-name{
+        font-size: 24px;
+    }
+    .size-buttons{
+        width: 300px;
+    }
+    .size-buttons button{
+        width: 51px;
+        height: 42px;
+    }
+    .shop-buttons{
+        width: 300px;
+    }
+    .shop-buttons button{
+        width: 140px;
+        height: 42px;
+    }
+}
+
+@media screen and (max-width: 768px){
+
+}
