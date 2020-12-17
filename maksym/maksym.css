@@ -1,0 +1,70 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+ul,
+li,
+a {
+    list-style: none;
+    text-decoration: none;
+}
+
+a:any-link {
+    color: white;
+}
+
+.bg_img {
+    background-image: url(asseds/image/bg.png);
+    margin: 0 auto;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+}
+
+.square {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    color: white;
+}
+
+h1:hover {
+    color: cadetblue;
+}
+
+a:hover {
+    color: cadetblue;
+}
+
+p:hover {
+    color: cadetblue;
+}
+
+.square ul {
+    display: flex;
+    justify-content: space-between;
+    width: 327px;
+    margin-top: 50px;
+}
+
+.square h1 {
+    font-size: 53px;
+    font-family: "Ubuntu-Bold,AdobeInvisFont,MyriadPro-Regular";
+}
+
+.square p {
+    font-size: 15px;
+}
+
+.square button {
+    margin-top: 30px;
+    background-color: #498876;
+    color: white;
+    border-radius: 30px;
+    border: none;
+    width: 240px;
+    height: 50px;
+}
